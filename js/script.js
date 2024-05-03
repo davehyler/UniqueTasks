@@ -1,7 +1,7 @@
 let taskID = 0; //in case no local value exists in local storage (first time loading page)
 const retrievedObject = JSON.parse(localStorage.getItem('taskIDLocal'));
 taskID = retrievedObject
-alert(taskID)
+//alert(taskID) commented out. Uncomment for TaskID Debugging on Page Load.
 
 
 //Take any previously existing Local Storage Items and Print them to the board. -IN PROGRESS. Add loop with iterations based on TaskID
