@@ -2,60 +2,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
-
+  
 .swim-lanes {
-  min-height: 100vh;
+  min-height: 60vh;
 }
-
-.list { 
-  background-color: rgb(3, 126, 3); 
-} 
-
-.task-card { 
-  list-style-type: none; 
-  margin-left: 5px; 
-  padding: 0; 
-  width: 200px; 
-  float: left; 
+  
+.task-card {
+  margin: 0 auto;
+}
+  
+.task-card:hover {
   cursor: grab;
-} 
-
-.task-card li { 
-  margin: 5px; 
-  padding: 10px; 
-  border-radius: 5px;
-  font-size: 12px; 
-} 
-
-/* The Modal (background) */
-.modal {
-  display: none; /* hied on page load */
-  position: fixed; /* not relative, do not move */
-  z-index: 1; /* weight/relative to other objects. Z index will allow to put in front of other divs */
-  overflow: scroll;
-}
-
-/* Modal */
-.modal-content {
-  background-color: #fefefe;
-  margin: 18% auto;
-  padding: 18px;
-  border: 2px solid Black;
-  width: 80%;
-}
-
-/* The Close Button */
-.close {
-  color: #ff0000;
-  float: right;
-  font-size: 18px;
-  font-weight:bolder;
-}
-
-/* edit so that cursor changes only on X and not full span */
-.close:hover, 
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
 }
