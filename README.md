@@ -24,7 +24,7 @@
 <h3 id="license">License: MIT</h3>
 <p>Badge: <a href = "https://opensource.org/license/mit"><img src = "https://badgen.net/badge/license/MIT"></a></p>
 <h3 id="description">Description of project:</h3>
-<p>This is a simple Employee Payroll Tracker</p>
+<p>This is a simple Task Tracker and Management System</p>
 <h3 id="instructions">Instructions:</h3>
 <p>Follow link below to deployed Website (https://davehyler.github.io/UniqueTasks/), press the only button on the body of the page, and follow all prompts.</p>
 <h3 id="usage">Each of the following has been completed from the source readme:</h3>GIVEN a task board to manage a project
